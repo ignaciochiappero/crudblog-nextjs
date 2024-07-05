@@ -49,6 +49,7 @@ const BlogPage = ({success, error, blog}) => {
         <meta name="description" content="Web creada por Nacho Chiappero" />
         <link rel="stylesheet" href="/favicon.ico" />
       </Head>
+      
         <h1 className="text-center bg-dark text-light">Detalle del Blog 👾</h1>
       
         <div className="card-title border p-2 text-center">
