@@ -35,7 +35,7 @@ export default function Home({blogs}) {
 
     <div className="container">
       <div className="row justify-content-center">
-        <div className="col-12 col-md-10 ">
+        <div className="col-12 col-md-10 col-lg-8">
           <Link href="/new">
           <div className="btn btn-primary w-100 my-2">
             Agregá tu experiencia de vida! (aparecerá debajo)
