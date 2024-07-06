@@ -130,24 +130,60 @@ export default function Home({blogs}) {
         </div>
         {/* //////////////////////////////////////////////////// */}        
         
-        {/* ///////////// CARTA INFO MÍA ////////////////////// */}
-        <div className="card mb-2 light:bg-dark text-dark border-light col-12 col-md-10 col-lg-8">
+         {/* ///////////// CARTA INFO MÍA ////////////////////// */}
+         <div className="card mb-2 light:bg-dark text-dark border-light 
+        col-12 col-md-10 col-lg-8 ">
 
           <div className="card-body">
             
             {/* Título del blog */}
-            <div className="h5 text-uppercase">MIS CRISIS VOCACIONAL</div>
+            <div className="h5 text-uppercase p-3">Quién soy? 🗺</div>
 
-          {/* Descripción del blog */}
-          <p className="fw-light">Fui siempre buen estudiante, pero al ir a un liceo militar durante la etapa de escuela secundaria hizo que mi brújula perdiera el rumbo, y no supiera qué hacer al salir del colegio. Hice un año de medicina, </p>
+
+            {/* Conenedor del texto y de la imagen */}
+            <div className="row">
+
+              {/* Descripción del blog */}
+              <div className="container  col-12 col-md-6">
+                
+                <p className="fw-light">Hola! Soy Nacho Chiappero! Soy de Santa Fe Capital, provincia de Santa Fe, Argentina. Te cuento que soy programador freelancer con experiencia en varias ramas de la tecnología como desarrollo web, de aplicaciones en varios lenguajes, un apasionado por la inteligencia artificial, y un curioso innato. Te voy a contar un poquito más de mi historia para que me conozcas mejor! Bienvenid@ ✨!</p>
+              </div>
+
+
+              {/* Imagen del blog */}
+              <div className="container col-12 col-md-6 col-sm-6 position-relative ">
+                <div style={{ width: '100%', maxWidth: '780px' }}>
+                  
+                  <Image
+                    src="/perfil1.jpg"
+                    layout="responsive"
+                    width={300}
+                    height={400}
+                    alt="Perfil"
+                    className="rounded rounded-3 overflow-hidden"
+                  />
+                </div>
+
+              </div> 
+
+ 
+
+            </div> {/* contenedor del texto y de la imagen */}
           </div>
         </div>
-        {/* //////////////////////////////////////////////////// */}        
+        {/* //////////////////////////////////////////////////// */}
         
         
 </div>        
       </main>
+
+      <footer className="text-light my-4 text-center row justify-content-center">
+          <div className="col-12 col-md-4">
+            Desarrollado por Nacho Dev a través de Next.JS y MongoDB - Santa Fe - Argentina - 2024 
+          </div>
+
         
+      </footer>  
       
     </div>
   )
