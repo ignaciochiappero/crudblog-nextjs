@@ -10,14 +10,6 @@ import { Urbanist } from "next/font/google";
 
 import Footer from "@/components/Footer";
 
-//ICONOS
-import { SiMongodb, SiBootstrap ,SiJavascript  } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { TiPlus } from "react-icons/ti";
-import { RiNextjsFill } from "react-icons/ri";
-
-
-
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 

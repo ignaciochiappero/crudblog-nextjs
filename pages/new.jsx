@@ -8,6 +8,8 @@ const New = () => {
     plot: ''
   };
 
+
+
   return (
     <div className="bg-dark min-vh-100 d-flex flex-column">
       <Head>  
